@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`seal Valid seal 1`] = `
+Object {
+  "passenger": Object {
+    "firstName": "John",
+    "lastName": "Smith",
+  },
+  "price": Object {
+    "currency": "eur",
+    "value": 1200.34,
+  },
+  "productId": "9824805246245",
+  "seal": "U2FsdGVkX181Ih63aVj+jD1N/nDKmHxiLD9adM1TyMYKEjrNIWRpnEtS4h2OwDxi9shFWIbBOjT5ikvXps4u1yAB6RfXaLv5SbBt33E4w9fj9qfbfO2gNb1GJjBSDcaZ",
+}
+`;

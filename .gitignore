@@ -1,0 +1,12 @@
+.git/
+.idea/
+.vscode/
+.DS_Store
+coverage/
+debug-ground/debug-dev-on-nodejs/
+node_modules/
+temp/
+/npm-debug.log
+/bash.exe.stackdump
+/update-externals.sh
+/yarn-error.log
