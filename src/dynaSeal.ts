@@ -25,10 +25,10 @@ export const createDynaSeal = <TData extends IDynaSealedData>(
 ): TData => {
   const fingerprint = md5(createFingerprint(data));
   const seal = encrypt({
-      fingerprint,
-      expiresAt,
-    } as IDynaSeal,
-    encryptionKey,
+    fingerprint,
+    expiresAt,
+  } as IDynaSeal,
+  encryptionKey,
   );
   return {
     ...data,

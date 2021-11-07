@@ -1,1 +1,1 @@
-export { Person, IPerson, } from "./person/Person";
+export { createDynaSeal, IDynaSeal, IDynaSealedData, validateDynaSeal, ESealValidationResolution, } from "./dynaSeal";
