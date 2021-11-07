@@ -41,7 +41,6 @@ describe('seal', () => {
       encryptionKey: 'sssh-secret',
     });
 
-    expect(sealedProduct).toMatchSnapshot();
     expect(validation.valid).toBeTruthy();
     expect(validation.expiresAt).toBe(expiresAt);
     expect(validation.expiresAt).toBeGreaterThan(Date.now());
